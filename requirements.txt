@@ -1,1 +1,7 @@
+funcsigs==1.0.2
 heat-cfntools==1.4.2
+mock==2.0.0
+pbr==5.1.0
+selenium==3.141.0
+six==1.11.0
+urllib3==1.24
