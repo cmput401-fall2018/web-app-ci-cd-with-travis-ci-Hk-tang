@@ -4,7 +4,8 @@ from selenium.webdriver.common.keys import Keys
 
 def test_home():
     # Replace path with your own chromedriver
-    driver = webdriver.Chrome('C:\\Users\\HenzoShimada\\Documents\\Homework\\Cmput_401\\chromedriver.exe')
+    # driver = webdriver.Chrome('C:\\Users\\HenzoShimada\\Documents\\Homework\\Cmput_401\\chromedriver.exe')
+    driver = webdriver.Chrome()
     driver.get("http://162.246.157.149:8000")
     name = driver.find_element_by_id("name")
     about = driver.find_element_by_id("about")
